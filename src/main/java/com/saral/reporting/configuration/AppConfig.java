@@ -44,7 +44,7 @@ public class AppConfig extends WebMvcConfigurerAdapter{
 	 @Override
 	    public void addResourceHandlers(ResourceHandlerRegistry registry) {
 	        registry.addResourceHandler("/assets/**").addResourceLocations("assets/");
-	        
+	        System.out.println();
 	        registry.addResourceHandler("/ckeditor/**").addResourceLocations("ckeditor/");
 	        
 	        registry.addResourceHandler("/js/**").addResourceLocations("js/");
